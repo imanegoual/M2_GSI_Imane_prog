@@ -1,1 +1,62 @@
-je fais un test - mon fichier html 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projet d'analyse EURUA - Imane et Rézika </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Projet d'analyse EURUA - Imane et Rézika </h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">L'équipe</a></li>
+        <li><a href="#">Projets</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <script type="text/javascript">
+        var projet= ['EURUA','a'];
+        for (let index = 0; index < projets.lenght; index++){
+            const p = projets [index ];
+            console.log(p);
+        }
+    </script>
+    <main>
+      <article>
+        <h2>Présentation </h2>
+            <p>Nous avons décidé de crawler les sites des laboratoires des Universités Paris 8 et NBU, qui font partie du même réseau ERUA, regroupant des universités européennes autour de différentes disciplines. Nous avons crawlés les sites et page de présentation de laboratoires de recherches en lien avec l’art et les humanités numériques de ces universités respectives. Dans le cadre de ce TD, nous avons utilisé les outils Hyphes et Gephi. Nous avons utilisé Hyphe pour crawler les pages web, et Gephi pour optimiser la présentation de nos visualisations de données.
+            </p>
+
+            <h3>Sources utilisées </h3>
+            <p>Sur 17 sources, on a gardé 8 sources parce qu’il y avait 3 sources qui ne fonctionnaient pas, et 5 sources en bulgare. On a supprimé ces 8 sources. On a essayé de crawler les 9 sources, lors du crawl on a encore supprimé une source (Laboratoire Paragraphe). L’outil Hyphe ne parvenait pas à crawler la page. Nous pouvons voir dans le tableau les 17 sources sélectionnées initialement. Voici les sources retenues : 
+            <ul>
+                <li>P8 : Laboratoire AIAC « Arts des images et art contemporain » <a href="https://aiac.univ-paris8.fr/"> https://aiac.univ-paris8.fr/</a></li>
+                <li>P8 : Laboratoire CEMTI Centre d’études sur les médias, les technologies et l’internationalisation <a href="https://cemti.univ-paris8.fr/"> https://cemti.univ-paris8.fr/ </a></li>
+                <li>P8 : Laboratoire ESTA Esthétique, sciences et technologies du cinéma et de l'audiovisuel <a href="https://www.estca.univ-paris8.fr/">https://www.estca.univ-paris8.fr/</a></li>
+                <li>P8 : Laboratoire Fablitt Fabrique du littéraire <a href="https://fablitt.univ-paris8.fr/"> https://fablitt.univ-paris8.fr/ </a></li>
+                <li>P8 : Laboratoire Scene monde <a href="https://scenes-monde.univ-paris8.fr/">https://scenes-monde.univ-paris8.fr/</a></li>
+                <li> NBU: Laboratoire Visualarts : Cinema, Advertising and Show Business <a href="https://visualarts.nbu.bg/en/">https://visualarts.nbu.bg/en/ </a></li>
+                <li> NBU : Laboratoire Finearts<a href="https://finearts.nbu.bg/en/">https://finearts.nbu.bg/en/</a></li>
+                <li> NBU : Laboratoire Music <a href="https://music.nbu.bg/en/">https://music.nbu.bg/en/</a></li>
+            </ul>
+            </p>
+
+            <h3>Le processus de nettoyage</h3>
+                <p>
+                    Nous avons nettoyé nos sources. Nous avons retiré : 
+                    youtube.com
+                    vimeo.com 
+                    dailymotion.com
+                    Toutefois, nous avons gardé wikipédia et google.com, car il s’agit des seuls liens entre l'université Paris 8 et NBU. Nous avons aussi gardé Facebook comme lien, car il s'agit de pages spécifiques du réseau social. 
+                </p>
+      </article>
+    </main>
+    <footer style="text-align: center;">
+      <p>©Copyright 2050 par personne. Tous droits reversés.</p>
+    </footer>
+  </body>
+</html>
